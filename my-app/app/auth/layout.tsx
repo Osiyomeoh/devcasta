@@ -3,16 +3,16 @@ import React from "react";
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <main className="max-w-[1440px] min-h-screen mx-auto bg-deepBlue pl-8 flex ">
-      <section className="bg-transparent w-full relative  sm:w-3/5 text-white pt-8">
+    <main className="max-w-[1440px] min-h-screen mx-auto relative bg-deepBlue pl-8 flex ">
+      <section className="bg-transparent w-full h-full   sm:w-3/5 text-white pt-8">
        <div className="w-[120px] h-[32px] relative">
        <Image src="/Logo.svg" alt="DevCasta Logo" fill />
        </div>
-      <div className="px-[8.75rem] w-full">
+      <div className="px-[8.75rem] w-full h-full">
       {children}
       </div>
        
-        <p className="absolute left-8 bottom-8 mt-[2.6rem] font-normal text-sm text-[#94969C]">© DevPlayground {new Date().getFullYear()}</p>
+   
       </section>
       <section className="bg-cardBorder  sm:w-4/5 pl-[6rem] py-[120px] relative hidden sm:block overflow-hidden">
       <div className="absolute -right-6 top-0 h-[125px] w-[298px] -z-0">
@@ -28,6 +28,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
       </div>
 
       </section>
+      <p className="absolute left-8 bottom-8 font-normal text-sm text-[#94969C]">© DevPlayground {new Date().getFullYear()}</p>
     </main>
   );
 };
