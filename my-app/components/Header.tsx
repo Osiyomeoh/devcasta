@@ -32,14 +32,18 @@ const Header = () => {
         </ul>
       </div>
       <div className="flex items-center justify-between gap-3">
+        <Link href="/auth/login">
         <CustomButton
           title="Login"
           styles="h-10 w-[4.5rem] rounded-[1.8rem] bg-[#13161B] text-white border border-[#373A41]"
         />
+        </Link>
+        <Link href="/auth/register">
         <CustomButton
           title="Sign up"
           styles="h-10 w-[5.1rem] rounded-[1.8rem] bg-blueAccent text-white border border-[#373A41]"
         />
+        </Link>
       </div>
     </nav>
   );
