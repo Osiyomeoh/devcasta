@@ -1,0 +1,24 @@
+<svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_ii_430_19190)">
+<path d="M0.666626 10C0.666626 4.47715 5.14378 0 10.6666 0H38.6666C44.1895 0 48.6666 4.47715 48.6666 10V38C48.6666 43.5229 44.1895 48 38.6666 48H10.6666C5.14378 48 0.666626 43.5228 0.666626 38V10Z" fill="#0C0E12"/>
+<path d="M1.16663 10C1.16663 4.75329 5.41992 0.5 10.6666 0.5H38.6666C43.9133 0.5 48.1666 4.75329 48.1666 10V38C48.1666 43.2467 43.9133 47.5 38.6666 47.5H10.6666C5.41992 47.5 1.16663 43.2467 1.16663 38V10Z" stroke="#373A41"/>
+<path d="M23.6666 15H20.4666C18.7865 15 17.9464 15 17.3047 15.327C16.7402 15.6146 16.2812 16.0735 15.9936 16.638C15.6666 17.2798 15.6666 18.1198 15.6666 19.8V28.2C15.6666 29.8802 15.6666 30.7202 15.9936 31.362C16.2812 31.9265 16.7402 32.3854 17.3047 32.673C17.9464 33 18.7865 33 20.4666 33H28.8666C30.5468 33 31.3869 33 32.0286 32.673C32.5931 32.3854 33.052 31.9265 33.3396 31.362C33.6666 30.7202 33.6666 29.8802 33.6666 28.2V25M24.6666 20H28.6666V24M28.1666 15.5V14M32.106 16.5607L33.1666 15.5M33.1769 20.5H34.6769M15.6666 25.3471C16.3186 25.4478 16.9865 25.5 17.6666 25.5C22.053 25.5 25.932 23.3276 28.2863 20" stroke="#CECFD2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_ii_430_19190" x="0.666626" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0470588 0 0 0 0 0.054902 0 0 0 0 0.0705882 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_430_19190"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect2_innerShadow_430_19190"/>
+<feOffset/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0470588 0 0 0 0 0.054902 0 0 0 0 0.0705882 0 0 0 0.18 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_430_19190" result="effect2_innerShadow_430_19190"/>
+</filter>
+</defs>
+</svg>

@@ -3,16 +3,13 @@ import { Form } from "@/components/ui/form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 
-import { developerRegSchema, interviewerLoginSchema, interviewerRegSchema, loginSchema } from "@/schemas/authFormSchema";
+import { developerRegSchema, interviewerRegSchema } from "@/schemas/authFormSchema";
 import Link from "next/link";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import CustomButton from "../CustomButton";
 import CustomFormInput from "../CustomFormInput";
-import { Checkbox } from "../ui/checkbox";
 import { Button } from "../ui/button";
-import CustomSelect from "../CustomSelect";
-import { roles } from "@/mocks/roles";
 
 const RegisterForm = () => {
   const [isDeveloper, setisDeveloper] = useState(true);

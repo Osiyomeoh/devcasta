@@ -9,14 +9,19 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		backgroundImage:{
+			heroBg: "url('/Background pattern.svg')",
+		},
   		colors: {
 			blueAccent: "#0099FF",
 			deepBlue:"#1A2130",
 			cardBg:"#293040",
 			cardBorder:"#394864",
-			greenAccent: "#10B981",			
+			greenAccent: "#10B981",	
+			bgBlack:"#0C0E12",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'

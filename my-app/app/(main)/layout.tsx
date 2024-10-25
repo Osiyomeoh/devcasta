@@ -1,7 +1,7 @@
+import Header from "@/components/Header";
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import {Inter} from "next/font/google";
-import "./globals.css";
+import { Inter } from "next/font/google";
+import "../globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -28,7 +28,8 @@ export default function RootLayout({
       <body
         className={`${inter.variable} antialiased`}
       >
-        <main className="min-h-screen bg-cardBg max-w-[1440px] mx-auto">
+        <main className="min-h-screen bg-bgBlack max-w-[1440px] mx-auto px-5  md:px-[5rem] pt-3 pb-24">
+          <Header/>
         {children}
         </main>
     

@@ -1,6 +1,4 @@
-import LoginForm from "@/components/auth/LoginForm";
 import RegisterForm from "@/components/auth/RegisterForm";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const page = () => {

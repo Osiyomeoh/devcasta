@@ -3,16 +3,16 @@ import { Form } from "@/components/ui/form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 
+import { roles } from "@/mocks/roles";
 import { interviewerLoginSchema, loginSchema } from "@/schemas/authFormSchema";
 import Link from "next/link";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import CustomButton from "../CustomButton";
 import CustomFormInput from "../CustomFormInput";
-import { Checkbox } from "../ui/checkbox";
-import { Button } from "../ui/button";
 import CustomSelect from "../CustomSelect";
-import { roles } from "@/mocks/roles";
+import { Button } from "../ui/button";
+import { Checkbox } from "../ui/checkbox";
 
 const LoginForm = () => {
   const [isDeveloper, setisDeveloper] = useState(true);
@@ -149,7 +149,7 @@ const LoginForm = () => {
           </div>
 
           <p className="flex items-center justify-center text-sm font-normal leading-none text-[#94969C] peer-disabled:cursor-not-allowed peer-disabled:opacity-70 !mb-[6.4rem]">
-            Don't have an account?
+            Don&apos;t have an account?
             <Link
               href="/auth/register"
               className="text-sm font-semiBold leading-none text-[#CECFD2] peer-disabled:cursor-not-allowed peer-disabled:opacity-70 ml-1"
