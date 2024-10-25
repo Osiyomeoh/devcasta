@@ -9,3 +9,8 @@ interface ISelectContent {
     imageSrc: string;
     whiteImageSrc: string;
   }
+
+  interface ILandingPageFaq{
+    question:string;
+    answer:string
+  }
